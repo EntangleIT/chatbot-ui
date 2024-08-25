@@ -40,12 +40,7 @@ export const OpenAIStream = async (
     method: 'POST',
     body: JSON.stringify({
       "id": "alkasdfasdf",
-      "model": {
-        "id": "llama-2-70b.Q5_K_M",
-        "name": "llama-2-70b.Q5_K_M",
-        "maxLength": 2048,
-        "tokenLimit": 2048
-      },
+      "model": model,
       messages: [
         {
           role: 'System',
