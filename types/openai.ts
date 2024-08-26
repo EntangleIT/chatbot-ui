@@ -45,7 +45,7 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   },
   [OpenAIModelID.LLAMA3_8B_INSTRUCT]: {
     id: OpenAIModelID.LLAMA3_8B_INSTRUCT,
-    name: 'Llama3-8B-Instruct',
+    name: 'NousResearch/Meta-Llama-3-8B-Instruct',
     maxLength: 96000,
     tokenLimit: 20000
   }
